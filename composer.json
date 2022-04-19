@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-    "backup-manager/backup-manager": "^3.0",
+    "backup-manager/backup-manager": "dev-master",
     "php": "^8.0",
     "symfony/process": "^6.0.7",
     "illuminate/support": "^9.0",
@@ -20,6 +20,12 @@
     "mockery/mockery": "dev-master",
     "satooshi/php-coveralls": "~0.6"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/labservant/backup-manager-laravel"
+    }
+  ],
   "config": {
     "bin-dir": "bin"
   },
